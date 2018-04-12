@@ -44,6 +44,8 @@
 #import "SupportViewController.h"
 #import "WPTabBarController.h"
 #import <WPMediaPicker/WPMediaPicker.h>
+#import <GoogleSignIn/GIDSignIn.h>
+
 
 DDLogLevel ddLogLevel = DDLogLevelInfo;
 

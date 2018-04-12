@@ -1,5 +1,6 @@
 import UIKit
 import WordPressShared
+@testable import WordPressAuthenticator
 
 
 // MARK: - LoginEpilogueTableViewController

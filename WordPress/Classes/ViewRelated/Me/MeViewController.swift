@@ -2,6 +2,8 @@ import UIKit
 import CocoaLumberjack
 import WordPressShared
 import Gridicons
+@testable import WordPressAuthenticator
+
 
 class MeViewController: UITableViewController, UIViewControllerRestoration {
     @objc static let restorationIdentifier = "WPMeRestorationID"

@@ -1,4 +1,5 @@
 import UIKit
+@testable import WordPressAuthenticator
 
 class SiteCreationDomainsViewController: NUXViewController {
 

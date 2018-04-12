@@ -125,7 +125,15 @@ end
 target 'WordPressAuthenticator' do
   project 'WordPressAuthenticator/WordPressAuthenticator.xcodeproj'
 
+  pod 'Gridicons', '0.15'
+  pod 'wpxmlrpc', '0.8.3'
   pod 'CocoaLumberjack', '3.4.1'
+  pod '1PasswordExtension', '1.8.5'
+  pod 'CocoaLumberjack', '3.4.1'
+  pod 'GoogleSignIn', '4.1.2'
+  pod 'NSURL+IDN', '0.3'
+  pod 'SVProgressHUD', '2.2.5'
+  pod 'lottie-ios', '1.5.1'
 
   target 'WordPressAuthenticatorTests' do
     inherit! :search_paths

@@ -1,5 +1,8 @@
 import UIKit
 import SafariServices
+import WordPressUI
+@testable import WordPressAuthenticator
+
 
 extension FancyAlertViewController {
     private struct Strings {

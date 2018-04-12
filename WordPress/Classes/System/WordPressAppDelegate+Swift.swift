@@ -2,6 +2,7 @@ import Foundation
 import CocoaLumberjack
 import Reachability
 import UIDeviceIdentifier
+import WordPressAuthenticator
 
 // MARK: - Utility Configuration
 
@@ -139,9 +140,10 @@ extension WordPressAppDelegate {
         if let presentedViewController = rootViewController?.presentedViewController {
             if presentedViewController is EditPostViewController {
                 return "Post Editor"
-            } else if presentedViewController is LoginNavigationController {
-                return "Login View"
             }
+//            else if presentedViewController is LoginNavigationController {
+//                return "Login View"
+//            }
         }
 
         return WPTabBarController.sharedInstance().currentlySelectedScreen()
@@ -153,13 +155,13 @@ extension WordPressAppDelegate {
                 return false
             }
 
-            guard let visibleViewController = presentedViewController.visibleViewController else {
+//            guard let visibleViewController = presentedViewController.visibleViewController else {
                 return false
-            }
+//            }
 
-            return visibleViewController is NUXAbstractViewController
-                || visibleViewController is LoginPrologueViewController
-                || visibleViewController is NUXViewControllerBase
+//            return visibleViewController is NUXAbstractViewController
+//                || visibleViewController is LoginPrologueViewController
+//                || visibleViewController is NUXViewControllerBase
         }
     }
 }

@@ -1,4 +1,6 @@
 import UIKit
+@testable import WordPressAuthenticator
+
 
 protocol SignupEpilogueCellDelegate {
     func updated(value: String, forType: EpilogueCellType)

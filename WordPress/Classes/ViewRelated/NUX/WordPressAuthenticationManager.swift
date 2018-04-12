@@ -1,4 +1,5 @@
 import Foundation
+@testable import WordPressAuthenticator
 
 
 // MARK: - WordPressAuthenticationManager

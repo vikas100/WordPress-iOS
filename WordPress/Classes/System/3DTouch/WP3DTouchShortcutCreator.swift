@@ -1,4 +1,6 @@
 import UIKit
+@testable import WordPressAuthenticator
+
 
 public protocol ApplicationShortcutsProvider {
     var shortcutItems: [UIApplicationShortcutItem]? { get set }

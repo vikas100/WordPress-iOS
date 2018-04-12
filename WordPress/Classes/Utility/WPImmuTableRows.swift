@@ -1,6 +1,8 @@
 import Foundation
 import WordPressShared
 import Gridicons
+@testable import WordPressAuthenticator
+
 
 
 struct NavigationItemRow: ImmuTableRow {
